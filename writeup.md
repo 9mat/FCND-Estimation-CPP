@@ -4,7 +4,7 @@ You are reading it.
 
 #### Determine the standard deviation of the measurement noise of both GPS X data and Accelerometer X data
 
-![1530867220750](images\noisestd.png)
+![1530867220750](images/noisestd.png)
 
 I rounded the estimated noise to 0.7 for GPS.X and 0.5 for IMU.AX.
 
@@ -39,7 +39,7 @@ void QuadEstimatorEKF::UpdateFromIMU(V3F accel, V3F gyro)
 
 Results:
 
-![s7](images\s7.gif)
+![s7](images/s7.gif)
 
 #### Implement all of the elements of the prediction step for the estimator
 
@@ -126,15 +126,15 @@ void QuadEstimatorEKF::UpdateFromGPS(V3F pos, V3F vel)
 
 #### Meet the performance criteria of each step
 
-![s7](images\s7.gif)
+![s7](images/s7.gif)
 
-![s8](images\s8.gif)
+![s8](images/s8.gif)
 
-![s9](images\s9.gif)
+![s9](images/s9.gif)
 
-![s10](images\s10.gif)
+![s10](images/s10.gif)
 
-![s11](images\s11.gif)
+![s11](images/s11.gif)
 
 #### De-tune your controller to successfully fly the final desired box trajectory with your estimator and realistic sensors
 
